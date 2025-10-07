@@ -4,7 +4,6 @@
 ![Flutter](https://img.shields.io/badge/Flutter-3.0+-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-2.19+-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?style=for-the-badge&logo=openai&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **AI-Powered Sports Talent Assessment Platform**
 
@@ -151,7 +150,7 @@ To democratize sports talent assessment by providing accessible, accurate, and A
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 talentscan_ai/
@@ -232,7 +231,7 @@ GitHub: Himan2899
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 ### Version 2.0 (Upcoming)
 - [ ] Computer vision-based rep counting
@@ -255,7 +254,7 @@ GitHub: Himan2899
 
 ---
 
-## 🐛 Bug Reports & Feature Requests
+## Bug Reports & Feature Requests
 
 Found a bug or have an idea? We'd love to hear from you!
 
@@ -269,7 +268,7 @@ Found a bug or have an idea? We'd love to hear from you!
 - **QA Engineer** - Testing & Quality Assurance
 
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **OpenAI** - For providing powerful AI capabilities
 - **Flutter Team** - For the amazing cross-platform framework
