@@ -11,11 +11,6 @@
 
 *Revolutionizing athletic performance evaluation through cutting-edge artificial intelligence*
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Tech Stack](#-tech-stack) • [Team](#-team)
-
-</div>
-
----
 
 ## 📖 Overview
 
