@@ -20,7 +20,7 @@
 
 To democratize sports talent assessment by providing accessible, accurate, and AI-driven performance evaluation tools for athletes of all levels.
 
----
+
 
 ## ✨ Features
 
@@ -119,9 +119,7 @@ To democratize sports talent assessment by providing accessible, accurate, and A
 ### AI Coach
 *24/7 personalized coaching powered by OpenAI*
 
-</div>
 
----
 
 ## 🛠️ Tech Stack
 
