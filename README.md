@@ -76,57 +76,6 @@ To democratize sports talent assessment by providing accessible, accurate, and A
 
 ---
 
-## 🚀 Installation
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (3.0 or higher)
-- [Dart SDK](https://dart.dev/get-dart) (2.19 or higher)
-- Android Studio / Xcode (for mobile deployment)
-- Git
-
-### Setup Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/team-nexora/talentscan-ai.git
-   cd talentscan-ai/my_app
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Configure OpenAI API**
-   
-   a. Copy the example config file:
-   ```bash
-   cp lib/config/api_config.example.dart lib/config/api_config.dart
-   ```
-   
-   b. Edit `lib/config/api_config.dart` and add your OpenAI API key:
-   ```dart
-   static const String openaiApiKey = 'YOUR_ACTUAL_API_KEY_HERE';
-   ```
-   
-   c. Get your API key from: [OpenAI Platform](https://platform.openai.com/api-keys)
-   
-   ⚠️ **Important**: The `api_config.dart` file is gitignored to protect your API key. Never commit your actual API key to version control!
-
-4. **Run the application**
-   ```bash
-   # For development
-   flutter run
-   
-   # For release build
-   flutter build apk --release  # Android
-   flutter build ios --release  # iOS
-   ```
-
----
-
 ## 💻 Usage
 
 ### Getting Started
@@ -156,10 +105,6 @@ Before you begin, ensure you have the following installed:
 - Review AI feedback after each test
 
 ---
-
-## 📸 Screenshots
-
-<div align="center">
 
 ### Splash & Onboarding
 *Beautiful animated splash screen and intuitive onboarding flow*
@@ -248,28 +193,12 @@ talentscan_ai/
 
 ---
 
-## 🔧 Configuration
-
-### API Settings
-
-The app uses OpenAI's GPT-3.5 Turbo model. You can customize the AI behavior in `lib/config/api_config.dart`:
-
-```dart
-static const String openaiModel = 'gpt-3.5-turbo';
-static const int maxTokens = 300;
-static const double temperature = 0.7;
-```
-
-### System Prompt
-
-The AI Coach personality is defined by the system prompt:
-```dart
-static const String systemPrompt = '''You are an AI Sports Coach specializing 
-in fitness assessment and athletic performance. You help athletes improve their 
-performance through personalized advice, training recommendations, and motivation.'''
-```
-
----
+👨‍💻 Creator & Team
+Lead Developer 🚀
+Name: Himanshu Bali
+Role: Full-Stack Developer & AI Engineer
+Contact: [himanshuofficialuserid@gmail.com]
+GitHub: Himan2899
 
 ## 🔐 Security & Privacy
 
@@ -280,7 +209,7 @@ performance through personalized advice, training recommendations, and motivatio
 
 ### Important Security Notes
 
-⚠️ **Before deploying to production:**
+ **Before deploying to production:**
 1. Move API keys to environment variables
 2. Implement proper key rotation
 3. Add request rate limiting
@@ -289,7 +218,7 @@ performance through personalized advice, training recommendations, and motivatio
 
 ---
 
-## 🚦 Performance Optimization
+##  Performance Optimization
 
 - **Lazy Loading**: Screens loaded on demand
 - **Image Optimization**: Compressed assets
@@ -299,20 +228,6 @@ performance through personalized advice, training recommendations, and motivatio
 
 ---
 
-## 🧪 Testing
-
-```bash
-# Run unit tests
-flutter test
-
-# Run widget tests
-flutter test test/widget_test.dart
-
-# Run integration tests
-flutter drive --target=test_driver/app.dart
-```
-
----
 
 ## 📱 Supported Platforms
 
@@ -345,24 +260,6 @@ flutter drive --target=test_driver/app.dart
 - [ ] Integration with fitness platforms
 - [ ] Machine learning model training
 
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-1. **Fork the repository**
-2. **Create your feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
-
-### Contribution Guidelines
-- Follow Dart/Flutter style guide
-- Write meaningful commit messages
-- Add tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting
 
 ---
 
@@ -370,45 +267,7 @@ We welcome contributions from the community! Here's how you can help:
 
 Found a bug or have an idea? We'd love to hear from you!
 
-- **Bug Reports**: [Open an issue](https://github.com/team-nexora/talentscan-ai/issues)
-- **Feature Requests**: [Start a discussion](https://github.com/team-nexora/talentscan-ai/discussions)
-- **Security Issues**: Email security@talentscan.ai
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2024 Team NEXORA
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
----
-
-## 👥 Team
-
-### **Team NEXORA**
-
-<div align="center">
-
-*Innovation Meets Excellence*
-
-Made with ❤️ by passionate developers committed to revolutionizing sports technology
-
-</div>
 
 ### Core Team
 - **Project Lead** - Architecture & Strategy
@@ -417,13 +276,6 @@ Made with ❤️ by passionate developers committed to revolutionizing sports te
 - **UI/UX Designer** - User Experience Design
 - **QA Engineer** - Testing & Quality Assurance
 
-### Connect With Us
-- 🌐 Website: [www.talentscan.ai](https://www.talentscan.ai)
-- 📧 Email: team@nexora.dev
-- 🐦 Twitter: [@TeamNexora](https://twitter.com/teamnexora)
-- 💼 LinkedIn: [Team NEXORA](https://linkedin.com/company/nexora)
-
----
 
 ## 🙏 Acknowledgments
 
@@ -438,16 +290,6 @@ Made with ❤️ by passionate developers committed to revolutionizing sports te
 - Sports professionals who validated our approach
 
 ---
-
-## 📞 Support
-
-Need help? We're here for you!
-
-- 📚 **Documentation**: [docs.talentscan.ai](https://docs.talentscan.ai)
-- 💬 **Community Forum**: [community.talentscan.ai](https://community.talentscan.ai)
-- 📧 **Email Support**: support@talentscan.ai
-- 🎥 **Video Tutorials**: [YouTube Channel](https://youtube.com/talentscanai)
-
 ### FAQ
 
 **Q: Is this app free?**
@@ -464,25 +306,10 @@ A: Any Android (5.0+) or iOS (11.0+) device with a camera.
 
 ---
 
-## 📊 Project Stats
-
-<div align="center">
-
-![Stars](https://img.shields.io/github/stars/team-nexora/talentscan-ai?style=social)
-![Forks](https://img.shields.io/github/forks/team-nexora/talentscan-ai?style=social)
-![Issues](https://img.shields.io/github/issues/team-nexora/talentscan-ai)
-![Pull Requests](https://img.shields.io/github/issues-pr/team-nexora/talentscan-ai)
-![Last Commit](https://img.shields.io/github/last-commit/team-nexora/talentscan-ai)
-
-</div>
-
----
-
 ## 🌟 Star History
 
-If you find this project helpful, please consider giving it a star! ⭐
+If you Loved This Project ❤️ ,  Consider giving it a star! ⭐
 
----
 
 <div align="center">
 
@@ -490,11 +317,8 @@ If you find this project helpful, please consider giving it a star! ⭐
 
 **Download TalentScan AI Today!**
 
-[📱 Download APK](https://github.com/team-nexora/talentscan-ai/releases) • [🍎 App Store](https://apps.apple.com) • [🤖 Play Store](https://play.google.com)
 
----
-
-**Made with ❤️ by Team NEXORA • 2024**
+**Made with ❤️ by Team Himanshu Bali • 2025**
 
 *Innovation Meets Excellence*
 
